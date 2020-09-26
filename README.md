@@ -6,6 +6,11 @@ This repo will serve as a place for me to "collect" solitons of varying types.
 I think for each type, I will have like a little theory section that explains the math behind them, and then I will do some actual numerical computation of some kind to illustrate them.
 Depending on the kind of soliton, dimensionality, number of parameters, perhaps it will be an animation, snapshot, visualization of some parameter space?
 
+## Numerical calculations
+Recent advances in scientific computing have led to a variety of easy-to-use tools for performing numerical computations.
+Within the python environment, `numpy`, `scipy` and `numba` can take advantage of JIT compilation, vectorization, multithreading/multiprocess speedups... even GPU acceleration with custom kernels!
+So I don't feel any need to use a language other than python for now.
+
 ## Conventions
 In most places, I will be using natural units (unless specifically noted otherwise). That means that:
 * $c = \hbar = k_B = \varepsilon_0 = \mu_0 = 1$
