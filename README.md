@@ -20,3 +20,10 @@ In most places, I will be using natural units (unless specifically noted otherwi
 * Newton's gravitational constant can be rewritten as $G = 1/M_p^2$, where $M_p \approx 1.22\times 10^{19}$ GeV is the Planck mass
 
 I prefer to use the "mostly minus" spacetime metric, so that $ds^2 = dt^2 - dx^2$, $ds < 0$ denotes a timelike interval, $ds > 0$ a spacelike interval, and $ds = 0$ a lightlike interval.
+
+## To do (❌✅):
+| status | field content | kinetic term | potential | gravity | \# dim. | time dep. |
+| --- | --- | --- | --- | --- | --- | --- |
+| ✅ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | no |
+| ❌ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | yes - binary collisions |
+| ❌ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 3D | no |
