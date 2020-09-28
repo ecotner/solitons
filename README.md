@@ -21,9 +21,11 @@ In most places, I will be using natural units (unless specifically noted otherwi
 
 I prefer to use the "mostly minus" spacetime metric, so that $ds^2 = dt^2 - dx^2$, $ds < 0$ denotes a timelike interval, $ds > 0$ a spacelike interval, and $ds = 0$ a lightlike interval.
 
-## To do (❌✅):
+## Simulation list:
+Click the ✅ to go to the notebook for that scenario.
+
 | status | field content | kinetic term | potential | gravity | \# dim. | time dep. |
 | --- | --- | --- | --- | --- | --- | --- |
-| ✅ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | no |
-| ❌ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | yes - binary collisions |
+| [✅](simulations/01_nonlinear_schrodinger_1d_stationary.ipynb) | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | no |
+| [✅](simulations/02_nonlinear_schrodinger_1d_collisions.ipynb) | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | yes - binary collisions |
 | ❌ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 3D | no |
