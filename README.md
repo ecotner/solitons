@@ -12,7 +12,7 @@ Within the python environment, `numpy`, `scipy` and `numba` can take advantage o
 So I don't feel any need to use a language other than python for now.
 
 ## Conventions
-In most places, I will be using natural units (unless specifically noted otherwise). That means that:
+In most places, I will be using natural units (unless specifically noted otherwise). This means that:
 * $c = \hbar = k_B = \varepsilon_0 = \mu_0 = 1$
 * energy, mass, temperature, all are measured in units of energy (eV, MeV, GeV, ...)
 * length, time, etc. are measured in units of inverse energy (1/eV, ...)
@@ -28,4 +28,13 @@ Click the ✅ to go to the notebook for that scenario.
 | --- | --- | --- | --- | --- | --- | --- |
 | [✅](simulations/01_nonlinear_schrodinger_1d_stationary.ipynb) | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | no |
 | [✅](simulations/02_nonlinear_schrodinger_1d_collisions.ipynb) | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | yes - binary collisions |
+| ❌ | single scalar | Klein-Gordon | $\alpha\cos(\phi/M)$ | no | 1D | no |
+| ❌ | two scalars | Schrodinger | $\alpha(\chi^2 - \bar{\chi}^2)^2 + \beta \chi^2 \|\psi\|^2$ | no | 1D | no |
 | ❌ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 3D | no |
+| ❌ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 3D | binary collisions |
+| ❌ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | Newtonian | 3D | no |
+| ❌ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | Newtonian | 3D | binary collisions |
+| ❌ | single scalar + $U(1)$ gauge field | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 3D | no |
+| ❌ | single scalar | Klein-Gordon | $\alpha (\|\phi\|^2-\bar{\phi}^2)^2$ | no | 1D | no |
+| ❌ | single scalar | Klein-Gordon | $\alpha (\|\phi\|^2-\bar{\phi}^2)^2$ | no | 1D | binary collisions |
+| ❌ | single scalar | Klein-Gordon | $\alpha (\|\phi\|^2-\bar{\phi}^2)^2$ | no | 1D | condensate fragmentation |
