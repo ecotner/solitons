@@ -26,8 +26,8 @@ Click the ✅ to go to the notebook for that scenario.
 
 | status | field content | kinetic term | potential | gravity | \# dim. | time dep. |
 | --- | --- | --- | --- | --- | --- | --- |
-| [✅](simulations/01_nonlinear_schrodinger_1d_stationary.ipynb) | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | no |
-| [✅](simulations/02_nonlinear_schrodinger_1d_collisions.ipynb) | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | yes - binary collisions |
+| [✅](/simulations/01_nonlinear_schrodinger_1d_stationary.ipynb) | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | no |
+| [✅](/simulations/02_nonlinear_schrodinger_1d_collisions.ipynb) | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 1D | yes - binary collisions |
 | ❌ | single scalar | Klein-Gordon | $\alpha\cos(\phi/M)$ | no | 1D | no |
 | ❌ | two scalars | Schrodinger | $\alpha(\chi^2 - \bar{\chi}^2)^2 + \beta \chi^2 \|\psi\|^2$ | no | 1D | no |
 | ❌ | single scalar | Schrodinger | $\alpha (\|\psi\|^2-\bar{\psi}^2)^2$ | no | 3D | no |
